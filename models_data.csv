@@ -1,5 +1,0 @@
-Model,Perplexity,Time,Size,BLEU
-gpt2,20,0.8,500,32
-distilgpt2,25,0.5,300,29
-gpt-neo-125M,18,1.2,750,35
-opt-350m,22,0.9,700,33
