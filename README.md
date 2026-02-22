@@ -79,11 +79,12 @@ The output file `result.csv` contains:
 
 The model with the highest TOPSIS score is selected as the best pretrained model.
 
-### Best Model According to TOPSIS
+## Best Model According to TOPSIS
 
 Based on the TOPSIS ranking, **distilgpt2** is selected as the best pretrained
 text generation model, as it achieves the highest TOPSIS score (Rank 1) while
 maintaining low inference time and smaller model size.
+
 ---
 
 ## Tools Used
