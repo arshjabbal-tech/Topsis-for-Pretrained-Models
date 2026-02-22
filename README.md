@@ -68,9 +68,22 @@ The output file `result.csv` contains:
 
 - TOPSIS score
 - Ranking of models
+- 
+| Model        | Perplexity | Time (sec) | Size (MB) | BLEU | TOPSIS Score | Rank |
+|--------------|------------|------------|-----------|------|--------------|------|
+| gpt2         | 20         | 0.8        | 500       | 32   | 0.5735       | 2    |
+| distilgpt2   | 25         | 0.5        | 300       | 29   | 0.7449       | 1    |
+| gpt-neo-125M | 18         | 1.2        | 750       | 35   | 0.2551       | 4    |
+| opt-350m     | 22         | 0.9        | 700       | 33   | 0.3209       | 3    |
+
 
 The model with the highest TOPSIS score is selected as the best pretrained model.
 
+### Best Model According to TOPSIS
+
+Based on the TOPSIS ranking, **distilgpt2** is selected as the best pretrained
+text generation model, as it achieves the highest TOPSIS score (Rank 1) while
+maintaining low inference time and smaller model size.
 ---
 
 ## Tools Used
